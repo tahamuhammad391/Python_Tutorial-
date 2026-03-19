@@ -3,3 +3,4 @@
 1) Comment 
 2) print Statment 
 3) Variables 
+4) Data Types

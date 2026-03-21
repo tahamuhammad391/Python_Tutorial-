@@ -1,11 +1,11 @@
 # Python_Tutorial-
-**Introduction (Variables and Data_types)** 
+***Introduction (Variables and Data_types)*** 
 1) Comment 
 2) print Statment 
 3) Variables 
 4) Data Types
 
-**Operators**
+***Operators***
 1) Arithmetic Operators
 2) Comparison Operator
 3) Logical Operator
@@ -13,7 +13,7 @@
 5) Identity Operator 
 6) Membership Operator
 
-***Operators***
+***Conditional Statement***
 1) if,elif,else
 2) for loop , while loop
 3) break , continues statement

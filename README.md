@@ -11,4 +11,9 @@
 3) Logical Operator
 4) Assignment Operator
 5) Identity Operator 
-6) Membership Operator 
+6) Membership Operator
+
+***Operators***
+1) if,elif,else
+2) for loop , while loop
+3) break , continues statement

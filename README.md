@@ -14,6 +14,8 @@
 6) Membership Operator
 
 ***Conditional Statement***
-1) if,elif,else
-2) for loop , while loop
-3) break , continues statement
+1) if/elif/else
+2) Nested if and elif 
+3) for loop , while loop
+4) Nested for and while loop
+3) break and continues statement

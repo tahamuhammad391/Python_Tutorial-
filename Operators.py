@@ -66,7 +66,6 @@ c=[1,2,3]
 print("Identity operator")
 print(a is b)
 print(a is not c)
-print("Example 2")
 
 # Membership Operator: To check weather the value is exist in sequences or not. 
 '''

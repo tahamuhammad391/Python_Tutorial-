@@ -51,7 +51,7 @@ else:
 
 # Practice Questions 1: write a code for mini calculator (+,-,*,/)
 
-# Example 4: Enhanced the Above code using nested loop.
+# Example 4: Enhanced the Above code using nested if conditions.
 person = int(input("Enter a Age of person = ")) 
 if person > 0:
     if person <=17:

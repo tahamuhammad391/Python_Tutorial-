@@ -49,9 +49,10 @@ else:
 # else:
 #     print("Invalid input")
 
-# Practice Questions 1: write a code for mini calculator (+,-,*,/)
+# Practice Questions 1: write a code for mini calculator (+,-,*,/).
+# practice Questions 2: Write a code for discount Calculator (According to phone battery percentage). 
 
-# Example 4: Enhanced the Above code using nested loop.
+# Example 4: Enhanced the Above code using nested if conditions.
 person = int(input("Enter a Age of person = ")) 
 if person > 0:
     if person <=17:
@@ -62,5 +63,3 @@ if person > 0:
         print("You also cant't vote because are Above 60")
 else:
     print("Invalid input")
-
-

@@ -19,3 +19,11 @@
 3) for loop , while loop
 4) Nested for and while loop
 3) break and continues statement
+
+***String***
+1) String Charactertic 
+2) lenght function 
+3) Slicing
+4) Concatination in string
+5) Membership opeartor in string
+6) Methods in Python

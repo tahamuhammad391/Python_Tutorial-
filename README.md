@@ -37,3 +37,10 @@
 6) Membership Operator in list
 7) Methods in List
 
+***Tuple***
+1) Tuple Charactertic
+2) Access the tuples
+3) Access using Slicing Method
+4) Concatination in Tuples
+5) Membership Operator in Tuple
+6) Methods in Tuple

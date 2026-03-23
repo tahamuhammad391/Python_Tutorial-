@@ -69,7 +69,6 @@ print(indexed)
 #-------------Count Method-----------------------
 cnt = [1,2,1,6,8,6,9,7]
 print("Its repeat",cnt.count(6),"times")
-
 # Example:
 #----------------- Create a List using range Function---------------------
 lst = []

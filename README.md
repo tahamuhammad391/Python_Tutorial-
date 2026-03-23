@@ -26,4 +26,14 @@
 3) Slicing
 4) Concatination in string
 5) Membership opeartor in string
-6) Methods in Python
+6) Methods in String
+
+***List***
+1) List Charactertic 
+2) Ways of Creating list
+3) Access and Update
+4) update using Slicing Method
+5) Concatination in List
+6) Membership Operator in list
+7) Methods in List
+

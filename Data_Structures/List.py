@@ -66,3 +66,13 @@ print(a)
 # To find the index of the element. 
 indexed=b.index(10)
 print(indexed)
+#-------------Count Method-----------------------
+cnt = [1,2,1,6,8,6,9,7]
+print("Its repeat",cnt.count(6),"times")
+
+# Example:
+#----------------- Create a List using range Function---------------------
+lst = []
+for i in range(1,11):
+    lst.append(i)
+print(lst)    

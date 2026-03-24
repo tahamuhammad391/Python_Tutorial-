@@ -72,10 +72,17 @@ print("Its repeat",cnt.count(6),"times")
 #------------------Sort Method------------------
 list=[10,30,87,65,45,23,90,102,134,185]
 list.sort()
-print(list)
+print(list) # This will sort the elements Acending order.
+min(list)# This will find the minimum number.
+max(list) # This will find the maximum number.
 #----------------- Create a List using range Function---------------------
-# Example:
+# Example:1
 lst = []
 for i in range(1,11):
     lst.append(i)
-print(lst)    
+print(lst) 
+#----------------- list Comprehension------------------
+# It will also create the list in only one statement.
+
+list_1=[i**2 for i in range(1,11)]
+print(list_1)   

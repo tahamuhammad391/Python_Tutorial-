@@ -40,3 +40,16 @@ my_dict4={
 print(my_dict4)
 del my_dict4["Emp_number"]
 print(my_dict4)
+#---------------------Methods in Dictionary------------------
+#---------------------Get Method-----------------------------
+# We used get method to retrive the value of specific key. 
+my_dict5={
+    "employ":"Arsalan",
+    "Salary":140000,
+    "Emp_number":340
+}
+print(my_dict5.get("salary","Not Found"))
+print(my_dict5.get("Salary","Not Found"))
+#------------------------Keys and Value Method------------------------
+print(my_dict5.keys())
+print(type(my_dict5.values()))

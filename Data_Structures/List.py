@@ -69,8 +69,12 @@ print(indexed)
 #-------------Count Method-----------------------
 cnt = [1,2,1,6,8,6,9,7]
 print("Its repeat",cnt.count(6),"times")
-# Example:
+#------------------Sort Method------------------
+list=[10,30,87,65,45,23,90,102,134,185]
+list.sort()
+print(list)
 #----------------- Create a List using range Function---------------------
+# Example:
 lst = []
 for i in range(1,11):
     lst.append(i)

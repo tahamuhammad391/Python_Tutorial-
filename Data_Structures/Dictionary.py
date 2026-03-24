@@ -30,3 +30,13 @@ my_dict3["price"]=43.76 # Add new element like price= 43.76
 my_dict3["fruit"].append("Anar") # If you want to update the "fruit" list. 
 my_dict3["Vege"].remove("Tomato")
 print(my_dict3)
+
+#---------------------Deleting the Element-------------------
+my_dict4={
+    "employ":"Taha",
+    "Salary":120000,
+    "Emp_number":364
+}
+print(my_dict4)
+del my_dict4["Emp_number"]
+print(my_dict4)

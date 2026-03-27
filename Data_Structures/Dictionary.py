@@ -14,9 +14,14 @@
 # --------------------------- Creating a Dictionary using Constructors---------------------
 empty_Dic=dict(Name="Taha",emp=3456)
 print(empty_Dic)
-emp_list=list("Hello") #(range(1,6))
-print(emp_list)
-# #---------------------------Access a Dictionary------------------------
+#--------------------Create a dictionary from two lists using zip()-----------------
+# Zip() -> The built-in zip() function pairs up elements from the two lists.
+keys = ['a', 'b', 'c']
+values = [1, 2, 3]
+dynamic_dict = dict(zip(keys, values))
+print(dynamic_dict) # Output: {'a': 1, 'b': 2, 'c': 3}
+
+#---------------------------Access a Dictionary------------------------
 # my_dict2={
 #     "lis1":[1,2,3],
 #     "lis2":[4,5,6],
@@ -58,8 +63,7 @@ print(emp_list)
 #------------------------Keys and Value Method------------------------
 # print(my_dict5.keys())
 # print(my_dict5.values())
-
-#------------------- Nested Dictionary!!!!----------------
+#------------------- Nested Dictionary!!!!----------------------
 # Nested Dictionaries is define as the main dictionary have it's inside dictionary.
 # main_user={}
 # limit = int(input("Enter a number of users you want to Add!!!"))
@@ -71,7 +75,8 @@ print(emp_list)
 #     trans=[]
 #     no= int(input("Enetr the number of transaction= "))
 #     for i in range(no):
-#         transaction=int(input("Enter the amount="))
-#         trans.append(transaction)
+#       transaction=int(input("Enter the amount="))
+#       trans.append(transaction)
 #     value=dict(name=name1,city=city1,age=age1,Tran=trans)
 #     main_user[key]=value
+

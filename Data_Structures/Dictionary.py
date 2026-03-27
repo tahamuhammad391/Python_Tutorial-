@@ -11,6 +11,11 @@
 #     "Diciplain": "Electronic"
 # }
 # print(my_dict1)
+# --------------------------- Creating a Dictionary using Constructors---------------------
+empty_Dic=dict(Name="Taha",emp=3456)
+print(empty_Dic)
+emp_list=list("Hello") #(range(1,6))
+print(emp_list)
 # #---------------------------Access a Dictionary------------------------
 # my_dict2={
 #     "lis1":[1,2,3],
@@ -21,35 +26,52 @@
 # print(my_dict2) # Only print the "my_dict2" dictionary.
 # print(type(my_dict2["dic"])) # If i want to access the element of the dictionary.
 # -----------------------Adding the element in Dictionary-----------------
-my_dict3={
-    "fruit":["Banana","Orange","Apple"],
-    "Vege" :["Tomato","Potato","lady_Finger"]
-}
+# my_dict3={
+#     "fruit":["Banana","Orange","Apple"],
+#     "Vege" :["Tomato","Potato","lady_Finger"]
+# }
 # print(my_dict3)
-my_dict3["price"]=43.76 # Add new element like price= 43.76
-my_dict3["fruit"].append("Anar") # If you want to update the "fruit" list. 
-my_dict3["Vege"].remove("Tomato")
-print(my_dict3)
+# my_dict3["price"]=43.76 # Add new element like price= 43.76
+# my_dict3["fruit"].append("Anar") # If you want to update the "fruit" list. 
+# my_dict3["Vege"].remove("Tomato")
+# print(my_dict3)
 
 #---------------------Deleting the Element-------------------
-my_dict4={
-    "employ":"Taha",
-    "Salary":120000,
-    "Emp_number":364
-}
-print(my_dict4)
-del my_dict4["Emp_number"]
-print(my_dict4)
+# my_dict4={
+#     "employ":"Taha",
+#     "Salary":120000,
+#     "Emp_number":364
+# }
+# print(my_dict4)
+# del my_dict4["Emp_number"]
+# print(my_dict4)
 #---------------------Methods in Dictionary------------------
 #---------------------Get Method-----------------------------
 # We used get method to retrive the value of specific key. 
-my_dict5={
-    "employ":"Arsalan",
-    "Salary":140000,
-    "Emp_number":340
-}
-print(my_dict5.get("salary","Not Found"))
-print(my_dict5.get("Salary","Not Found"))
+# my_dict5={
+#     "employ":"Arsalan",
+#     "Salary":140000,
+#     "Emp_number":340
+# }
+# print(my_dict5.get("salary","Not Found"))
+# print(my_dict5.get("Salary","Not Found"))
 #------------------------Keys and Value Method------------------------
-print(my_dict5.keys())
-print(type(my_dict5.values()))
+# print(my_dict5.keys())
+# print(my_dict5.values())
+
+#------------------- Nested Dictionary!!!!----------------
+# Nested Dictionaries is define as the main dictionary have it's inside dictionary.
+# main_user={}
+# limit = int(input("Enter a number of users you want to Add!!!"))
+# for i in range(limit):
+#     key="User"+str(i+1)
+#     name1=input(f"Enter a name for {key}: ")
+#     city1=input(f"Enter a city for {key}: ")
+#     age1=input(f"Enter a age for {key}: ")
+#     trans=[]
+#     no= int(input("Enetr the number of transaction= "))
+#     for i in range(no):
+#         transaction=int(input("Enter the amount="))
+#         trans.append(transaction)
+#     value=dict(name=name1,city=city1,age=age1,Tran=trans)
+#     main_user[key]=value

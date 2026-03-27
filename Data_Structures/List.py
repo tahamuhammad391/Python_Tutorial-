@@ -7,7 +7,7 @@
 # 2) It is Heterogeneous -> We can store different data Types in one list like above.
 # ------------------------- Ways of Creating list---------------
 # 1) Using List Constructor:
-my_list1 = list((1.2,3,5,True,"Hello")) 
+my_list1 = list(1.2,3,5,True,"Hello") 
 print(my_list1)
 # 2) List Comprehanssion and using range:
 Ran = list(range(1,11)) # we may Also used range function in for loop. 
@@ -83,6 +83,5 @@ for i in range(1,11):
 print(lst) 
 #----------------- list Comprehension------------------
 # It will also create the list in only one statement.
-
 list_1=[i**2 for i in range(1,11)]
 print(list_1)   

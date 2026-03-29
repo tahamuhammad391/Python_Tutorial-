@@ -12,14 +12,14 @@
 # }
 # print(my_dict1)
 # --------------------------- Creating a Dictionary using Constructors---------------------
-empty_Dic=dict(Name="Taha",emp=3456)
-print(empty_Dic)
+# empty_Dic=dict(Name="Taha",emp=3456)
+# print(empty_Dic)
 #--------------------Create a dictionary from two lists using zip()-----------------
 # Zip() -> The built-in zip() function pairs up elements from the two lists.
-keys = ['a', 'b', 'c']
-values = [1, 2, 3]
-dynamic_dict = dict(zip(keys, values))
-print(dynamic_dict) # Output: {'a': 1, 'b': 2, 'c': 3}
+# keys = ['a', 'b', 'c']
+# values = [1, 2, 3]
+# dynamic_dict = dict(zip(keys, values))
+# print(dynamic_dict) # Output: {'a': 1, 'b': 2, 'c': 3}
 
 #---------------------------Access a Dictionary------------------------
 # my_dict2={
@@ -63,6 +63,24 @@ print(dynamic_dict) # Output: {'a': 1, 'b': 2, 'c': 3}
 #------------------------Keys and Value Method------------------------
 # print(my_dict5.keys())
 # print(my_dict5.values())
+#---------------------- Items Method---------------------
+# my_dict6 = {"name": "Taha","Salary":55000,"designation":"Engineer"}
+# all_items = my_dict6.items()
+# print(all_items)
+#--------------------- pop Method--------------------
+# my_dict6 = {"name": "Taha","Salary":55000,"designation":"Engineer","Emp": 3456}
+# popped = my_dict6.pop("Emp","Not Found")# Note: you must give the Argument as "Key" and If 
+# # a key is not present in the dictionaryy than its print the not found message.
+# print(popped)
+# print(my_dict6)
+#---------------------- pop item Method-----------------------
+# my_dict6 = {"name": "Taha","Salary":55000,"designation":"Engineer","Emp": 3456}
+# popped = my_dict6.popitem() # It Will delect the last item in the dictionary.
+# print(popped)
+# --------------------- Clear Method------------------------
+# my_dict6 = {"name": "Taha","Salary":55000,"designation":"Engineer","Emp": 3456}
+# my_dict6.clear() # It Will delect the All item in the dictionary.
+# print(my_dict6)
 #------------------- Nested Dictionary!!!!----------------------
 # Nested Dictionaries is define as the main dictionary have it's inside dictionary.
 # main_user={}
@@ -79,4 +97,17 @@ print(dynamic_dict) # Output: {'a': 1, 'b': 2, 'c': 3}
 #       trans.append(transaction)
 #     value=dict(name=name1,city=city1,age=age1,Tran=trans)
 #     main_user[key]=value
+# ------------------------Dictionary Comprehenshion-------------
+# First Method:
+print("Frist Method")
+Emp_dic={}
+for i in range(1,6):
+    square=i**2
+    Emp_dic[i]=square
 
+print(Emp_dic)
+
+# Second Method:
+print("Second Method")
+Emp_dic2={i: i**2 for i in range(1,6)}
+print(Emp_dic2)

@@ -44,3 +44,13 @@
 4) Concatination in Tuples
 5) Membership Operator in Tuple
 6) Methods in Tuple
+
+***Dictionaries***
+1) Dictionary Defination
+2) Creating a Dictionary
+3) Accessing a Dictionary
+4) Adding the element in Dictionary
+5) Deleting the Element
+6) Methods In Dictionary
+7) Nested Dictionary
+8) Dictionary Comprehenshion

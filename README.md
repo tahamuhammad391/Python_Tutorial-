@@ -54,3 +54,11 @@
 6) Methods In Dictionary
 7) Nested Dictionary
 8) Dictionary Comprehenshion
+
+***Functions***
+1) Functions Defination
+2) Create A Function
+3) Parameters and Arguments
+4) Types of Arguments
+5) global and local variable in Functions.
+6) Lambda Functions.
